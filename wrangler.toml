@@ -1,0 +1,11 @@
+name = "leaderboard-donation-hub"
+main = "src/index.js"
+compatibility_date = "2026-11-19"
+
+[[durable_objects.bindings]]
+name = "DONATION_HUB"
+class_name = "DonationHub"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["DonationHub"]
